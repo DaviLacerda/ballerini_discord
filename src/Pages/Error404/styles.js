@@ -7,13 +7,27 @@ export const ContainerAtCenter = styled.div`
     height:100vh;
 
     display:flex;
-    flex-direction:row;
+    flex-direction:column;
     align-items:center;
     justify-content:center;
 
+    @media(min-width:600px){
+        flex-direction:row;
+    }
+
+    .bot{
+        width:100%;
+        max-width:430px;
+
+        img{
+            width:100%;
+            max-width:430px;
+        }
+    }
+
     .error{
         width:fit-content;
-        height:30%;
+        height:fit-content;
          
         display:flex;
         align-items:flex-start;

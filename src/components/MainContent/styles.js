@@ -23,13 +23,27 @@ export const Container = styled.div`
             flex-direction:row;
         }
 
+        .right{
+            height:100%;
+            max-height:430px;
+            width:100%;
+            max-width:380px;
+
+            img{
+                height:100%;
+                width:100%;
+            }
+        }
+
         .left{
             display:flex;
             gap:32px;
             flex-direction:column;
 
             img{
-                height:430px;
+                height:100%;
+                width:100%;
+                max-height:430px;
             }
 
             h1{
@@ -102,6 +116,7 @@ export const Container = styled.div`
                 font-family: 'Sarala', sans-serif;
                 font-size: 18px;
                 color: #ECD6C4;
+                word-wrap:wrap;
             }
         }
     }

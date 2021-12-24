@@ -11,7 +11,7 @@ function Error404() {
                     <button>Go to Home Page!</button>
                 </a>
             </div>
-            <div>
+            <div className='bot'>
                 <img src={bot}></img>
             </div>
         </ContainerAtCenter>

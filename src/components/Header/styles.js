@@ -11,12 +11,17 @@ export const HeaderStyled = styled.header`
     border-bottom:0.4px solid #FFF2E7;
 
     .logo{
+        height:fit-content;
         img{
             height:72px;
         }
     }
 
     .links{
+        @media(max-width:700px){
+            display:none;
+        }
+        
         ul{
             display:flex;
             flex-direction:row;
