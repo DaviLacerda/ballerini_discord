@@ -4,7 +4,7 @@ export const ContainerAtCenter = styled.div`
     @import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
 
     width:100%;
-    height:100vh;
+    min-height:100vh;
 
     display:flex;
     flex-direction:column;

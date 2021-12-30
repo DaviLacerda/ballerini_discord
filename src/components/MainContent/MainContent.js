@@ -65,7 +65,9 @@ function MainContent() {
                     </cite>
                 </div>
                 <div className="rafaela__right">
-                    <img src={RafaelaBallerini} alt="Rafaela Ballerini"></img>
+                    <div className="rafaela__right__borderdecor">
+                        <img src={RafaelaBallerini} alt="Rafaela Ballerini"></img>
+                    </div>
                 </div>
             </div>
         </Container>

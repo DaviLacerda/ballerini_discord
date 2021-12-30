@@ -115,10 +115,16 @@ export const Container = styled.div`
             margin-bottom:12px;
 
             li{
+                width:100%;
                 font-family: 'Sarala', sans-serif;
                 font-size: 18px;
                 color: #ECD6C4;
                 word-wrap:wrap;
+            }
+
+            li:last-child{
+                padding-bottom:42px;
+                border-bottom:0.4px solid #fff2e7;
             }
         }
     }
@@ -126,12 +132,11 @@ export const Container = styled.div`
     .rafaela{
         display:flex;
         flex-direction:row;
-        gap:20px;
+        gap:50px;
 
         width:100%;
 
         padding:80px 40px;
-        border-top:0.4px solid #FFF2E7;
 
         @media(max-width:900px){
             align-items:center;
@@ -156,6 +161,7 @@ export const Container = styled.div`
 
             cite{
                 letter-spacing:.1em;
+                line-height:1.6;
             }
 
             span{
@@ -179,11 +185,22 @@ export const Container = styled.div`
             justify-content:center;
 
             width:40vw;
+            
+            .rafaela__right__borderdecor{
+                border-top:4px dashed #fff2e7;
+                border-bottom:4px dashed #fff2e7;
 
-            img{
-                width:100%;
-                max-width:256px;
-                border-radius:50%;
+                margin:32px;
+                padding:16px;
+                transform:rotate(-20deg);
+
+                img{
+                    width:100%;
+                    min-width:128px;
+                    max-width:256px;
+                    border-radius:50%;
+                    transform:rotate(20deg);
+                }
             }
         }
     }
