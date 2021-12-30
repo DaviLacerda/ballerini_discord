@@ -1,6 +1,9 @@
 import { Container } from "./styles";
 import bot from "../../assets/ballebot.svg";
 
+//import images
+import RafaelaBallerini from '../../assets/rafaela_ballerini.jfif'
+
 function MainContent() {
     return (
         <Container>
@@ -11,7 +14,7 @@ function MainContent() {
                     <button>Add me!</button>
                 </div>
                 <div className="welcome__right">
-                    <img src={bot}></img>
+                    <img src={bot} alt="BalleBot"></img>
                 </div>
             </div>
 
@@ -43,23 +46,26 @@ function MainContent() {
                     <h2>Who's Rafaela Ballerini?</h2>
                     <cite>
                         <span>"</span>
-                        Cursei Medicina por três anos até descobrir minha
-                        paixão: desenvolvimento de software. Hoje trabalho
-                        como criadora de conteúdo de programação e
-                        tecnologia, guiando pessoas que desejam iniciar na
-                        área de desenvolvimento de software. Possuo um canal
-                        no Youtube com mais de 128 mil inscritos e tenho
-                        mais de 86 mil pessoas acompanhando meu conteúdo no
-                        Instagram. Sou fundadora de uma comunidade de mais
-                        de 24 mil membros: Comunidade Ballerini, onde
-                        compartilhamos conhecimento sobre as diferentes
-                        áreas da programação, tiramos dúvidas e fazemos
-                        networking. Já trabalhei como instrutora front-end
-                        na Alura, uma das maiores escolas de tecnologia do
-                        Brasil. Acompanhe meu conteúdo:
+                        I studied Medicine for three years until I discovered my
+                        passion: software development. today I work
+                        as a programming content creator and
+                        technology, guiding people who want to get started in
+                        software development area. I have a channel
+                        on Youtube with more than 128 thousand subscribers and I have
+                        more than 86 thousand people following my content on
+                        Instagram. I am the founder of a community of more
+                        24,000 members: Ballerini Community, where
+                        we share knowledge about the different
+                        areas of programming, we ask questions and do
+                        networking. I've worked as a front-end instructor
+                        at Alura, one of the largest technology schools in the
+                        Brazil. Follow my content: <br></br>
                         <a href="https://beacons.ai/rafaballerini">https://beacons.ai/rafaballerini</a>
                         <span>"</span>
                     </cite>
+                </div>
+                <div className="rafaela__right">
+                    <img src={RafaelaBallerini} alt="Rafaela Ballerini"></img>
                 </div>
             </div>
         </Container>

@@ -14,11 +14,11 @@ function HamburguerMenu() {
         barMid.classList.toggle("bar--mid");
         barBot.classList.toggle("bar--bot");
 
-        nav.style.display == "flex"
+        nav.style.display === "flex"
             ? (nav.style.display = "none")
             : (nav.style.display = "flex");
 
-        container.style.flexDirection == "column"
+        container.style.flexDirection === "column"
             ? (container.style.flexDirection = "row")
             : (container.style.flexDirection = "column");
     }

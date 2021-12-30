@@ -4,7 +4,7 @@ import ballerini from '../../assets/ballerini.svg'
 function Footer() {
     return (
         <FooterStyled>
-            <img src={ballerini}></img>
+            <img src={ballerini} alt='Ballerini Logo'></img>
         </FooterStyled>
     )
 }

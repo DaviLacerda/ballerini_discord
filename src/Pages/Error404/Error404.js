@@ -12,7 +12,7 @@ function Error404() {
                 </a>
             </div>
             <div className='bot'>
-                <img src={bot}></img>
+                <img src={bot} alt='Error 404'></img>
             </div>
         </ContainerAtCenter>
     )

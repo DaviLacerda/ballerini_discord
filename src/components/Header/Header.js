@@ -1,5 +1,4 @@
 import { HeaderContainer } from './styles'
-import { Link } from 'react-router-dom';
 import logo from '../../assets/logo.svg'
 import HamburguerMenu from '../HamburguerMenu/HamburguerMenu';
 
@@ -32,13 +31,13 @@ function Header() {
 
             <nav className='menu'>
                 <ul>
-                        <a href="https://discord.com/invite/wagxzStdcR" target='_blank'>
-                            <li>Comunity Ballerini</li>
+                        <a href="https://discord.com/invite/wagxzStdcR" target='_blank' rel='noreferrer'>
+                            <li>Community Ballerini</li>
                         </a>
                         <a href="/error/404">
                             <li>Tutorial</li>
                         </a>
-                        <a href="https://github.com/rafaballerini/DiscordBot" target='_blank'>
+                        <a href="https://github.com/rafaballerini/DiscordBot" target='_blank' rel='noreferrer'>
                             <li>Open Source</li>
                         </a>
                         <a href="/error/404">
@@ -50,7 +49,7 @@ function Header() {
             <nav className='menu__toggle'>
                 <ul>
                         <a href="https://discord.com/invite/wagxzStdcR" target='_blank'>
-                            <li>Comunity Ballerini</li>
+                            <li>Community Ballerini</li>
                         </a>
                         <a href="/error/404">
                             <li>Tutorial</li>

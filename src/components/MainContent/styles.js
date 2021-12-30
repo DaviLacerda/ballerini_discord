@@ -126,10 +126,17 @@ export const Container = styled.div`
     .rafaela{
         display:flex;
         flex-direction:row;
+        gap:20px;
+
         width:100%;
 
         padding:80px 40px;
         border-top:0.4px solid #FFF2E7;
+
+        @media(max-width:900px){
+            align-items:center;
+            flex-direction:column;
+        }
 
         .rafaela__left{
             display:flex;
@@ -141,11 +148,19 @@ export const Container = styled.div`
             font-family: 'Sarala', sans-serif;
             font-size: 18px;
             color: #ECD6C4;
-            word-wrap:wrap;
+            word-wrap:break-word;
+
+            h2{
+                color:#FFF2E7;
+            }
+
+            cite{
+                letter-spacing:.1em;
+            }
 
             span{
                 font-size:2.5em;
-                color:brown;
+                color:#FFF2E7;
             }
 
             a{
@@ -155,6 +170,20 @@ export const Container = styled.div`
                 &:hover, &:active{
                     text-decoration:underline;
                 }
+            }
+        }
+
+        .rafaela__right{
+            display:flex;
+            align-items:center;
+            justify-content:center;
+
+            width:40vw;
+
+            img{
+                width:100%;
+                max-width:256px;
+                border-radius:50%;
             }
         }
     }
