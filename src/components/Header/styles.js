@@ -21,11 +21,14 @@ export const HeaderContainer = styled.header`
     width: 100%;
 
     border-radius: 0 0 20px 20px;
-    background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);
     color: #fff;
 
     @media(max-width:300px){
         flex-direction:column;
+    }
+
+    @media(max-width:600px){
+        background: linear-gradient(68.15deg, #2F2325 16.62%, #8E5D52 85.61%);  
     }
     
     padding:16px;

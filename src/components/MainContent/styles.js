@@ -25,7 +25,7 @@ export const Container = styled.div`
             flex-direction:row;
         }
 
-        .right{
+        .welcome__right{
             height:100%;
             max-height:430px;
             width:100%;
@@ -37,7 +37,7 @@ export const Container = styled.div`
             }
         }
 
-        .left{
+        .welcome__left{
             display:flex;
             gap:32px;
             flex-direction:column;
@@ -119,6 +119,42 @@ export const Container = styled.div`
                 font-size: 18px;
                 color: #ECD6C4;
                 word-wrap:wrap;
+            }
+        }
+    }
+
+    .rafaela{
+        display:flex;
+        flex-direction:row;
+        width:100%;
+
+        padding:80px 40px;
+        border-top:0.4px solid #FFF2E7;
+
+        .rafaela__left{
+            display:flex;
+            flex-direction:column;
+            gap:10px;
+
+            max-width:60vw;
+
+            font-family: 'Sarala', sans-serif;
+            font-size: 18px;
+            color: #ECD6C4;
+            word-wrap:wrap;
+
+            span{
+                font-size:2.5em;
+                color:brown;
+            }
+
+            a{
+                text-decoration:none;
+                color:#FFF2E7;
+
+                &:hover, &:active{
+                    text-decoration:underline;
+                }
             }
         }
     }
